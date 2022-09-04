@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking">
+
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="401dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Available items for lunch"
+        android:textColor="#F44336"
+        android:textSize="30dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="165dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+
+        <CheckBox
+            android:id="@+id/biriyani"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Veg Biriyani"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/curd"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Curd Rice"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/tomato"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Tomato Rice"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/Lemon"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Lemon Rice"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/Friedrice"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Fried Rice"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/manuchurian"
+            android:layout_width="254dp"
+            android:layout_height="70dp"
+            android:text="Gobi Manuchurian"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/sixty_65"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Gobi 65"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:layout_marginBottom="99dp"
+        android:background="#CDDC39"
+        android:text="Place order"
+        android:textColor="#000000"></Button>
+
+    <TextView
+        android:id="@+id/bill"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="48dp"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/menu"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        app:srcCompat="@drawable/biriyani" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="103dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="505dp"
+        app:srcCompat="@drawable/curdrice" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="452dp"
+        app:srcCompat="@drawable/tomato" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="92dp"
+        android:layout_height="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="319dp"
+        app:srcCompat="@drawable/lemon" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="296dp"
+        app:srcCompat="@drawable/friedrice" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="99dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="233dp"
+        app:srcCompat="@drawable/manchurian" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="176dp"
+        app:srcCompat="@drawable/gobi" />
+
+    <Button
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="Next"
+        android:onClick="Thanks"/>
+
+
+</RelativeLayout>
